@@ -1,0 +1,288 @@
+*{
+    color: #227d3e;
+    margin: 0px;
+    padding: 0px;
+    } 
+
+    /* here are the codes for the web colors used:
+  gold: #ffcc4e
+  green: #227d3e
+  copper: #b87333
+  blue: #1800aa
+  cream: #ede1ce  */
+
+  .nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  nav{
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    width: 100%;
+
+    background-color: #ffcc4e;
+    color: #227d3e;
+    padding: 10px;
+   
+   }
+
+   nav li{ 
+    background-color: #ffcc4e;
+    display: inline-flex;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  #friendly {
+    padding-right: 55vw;
+  }
+  
+  @media screen and (max-width: 1050px){
+  nav li{ 
+    background-color: #ffcc4e;
+   display: inline;
+   padding-right: 15px;
+  font-size: 14px;
+  }
+  }
+  
+  nav a{
+  text-decoration: none;
+  color: #227d3e;
+  }
+  
+  nav a:hover{
+  text-decoration: none;
+  color: #b87333;
+  }
+
+  body {
+    position: relative;
+    background-color: #227d3e;
+    background-image: url("images/monotone.png");
+    background-repeat: repeat;
+  }
+
+.section {
+    margin: auto;
+    width: 75%;
+    padding: 25px;
+    background-color: rgba(12, 12, 12, 0.8);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);   
+}
+
+.herologo {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container {
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+#intro {
+    width: 45%;
+    position: absolute;
+    top: 8%;
+    left: 7%;
+    transform: translate(-7%, -5%);
+}
+
+#intro h1{
+    margin-top: 50px;
+    color: #ede1ce;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px 5px 10px 5px;
+}
+
+#intro p{
+    text-align: justify;
+    padding: 5px;
+    color: #ede1ce;
+}
+
+h1 {
+    color: #ede1ce;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h2 {
+    color: #ede1ce;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+}
+
+fieldset{
+    padding: 5px;
+    border: 1px;
+}
+
+.email-form{
+    margin: auto;
+    padding-top: 20px;
+    width: 60%;
+    border: none; 
+}
+
+
+label {
+    display: block;
+    padding:  5px 5px;
+    color: #ede1ce;
+}
+
+.selection {
+display: flex;
+}
+
+.tag {
+    color: #ede1ce;
+    padding: 5px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background-color: #ede1ce;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+input:active {
+    border: 5px;
+    border-color: #227d3e;
+    background-color: #ede1ce;
+}
+
+button, input#submit {
+    display: block;
+    background-color: #227d3e;
+    color: #ede1ce;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+    font-weight: bolder;
+ }
+
+ #intro button {
+    width: 20%;
+    float: right;
+    padding: 5px;
+ } 
+
+ input#contact-preference, input#telephone,input#no-preference{
+    accent-color: #227d3e;
+ }
+
+ textarea {
+    border: o;
+    padding: 3px;
+    width: 100%;
+    font-style: italic;
+    font-family: "Nanum Myeongjo", serif;
+    background-color: #ede1ce;
+    margin-bottom: 5px;
+ }
+
+ .scroll-item {
+    display: inline-flex;
+    margin: auto;
+    width: 90vw;
+    height: 80vh;
+    min-width: 200px;
+    border: #b87333;
+    display: flex;
+    overflow-x: auto;
+ }
+
+ .scroll-item img{
+    width: 60vh;
+    height: 60vh;
+    background-color: black;
+    border: 7px;
+    border-color: black;
+    margin-right: 10px;
+ }
+
+ .discription {
+    color: #ede1ce;
+    font-size: small;
+    padding: 15px 10px 10px 10px;
+    text-align: justify;
+ }
+
+ #title {
+    margin-top: 20px;
+    color: #ede1ce;
+    font-size: 3rem;
+    text-align: center;
+ }
+
+ #title-para {
+    color: #ede1ce;
+    font-size: 1rem;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+ }
+
+ #gallery-button {
+    margin: 10px;
+ }
+
+ #gallery-button button {
+ background-color: #b87333; 
+ color: #ede1ce;
+ text-decoration: none;
+}
+
+.footer {
+    z-index: 999;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #b87333;
+    max-width: 72px;
+    min-width: 70px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+div#soc-med{
+    display: inline-flex;
+    object-fit: cover;
+    width: 100%;
+}
+   
+
+#foot-type{
+    color: #ede1ce;
+    font-size: .5rem;
+    text-align: left;
+}
+
